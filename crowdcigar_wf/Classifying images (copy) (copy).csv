@@ -1,5 +1,5 @@
 id,workflow_id,name,title,description,keywords,annotation,code,instructions,batch_size,min_workers,max_workers,adjudication_strategy,adjudication_strategy_params,quality_strategy,quality_strategy_params,compensation_strategy,compensation_strategy_params,next_step_strategy,next_step_strategy_params,work_unit_json_example,work_unit_html,job_html,css_code,js_code,check_unreadability_code,instance_comparison_strategy,instance_comparison_code,standardize_answers_code,combine_answers_code,compare_with_official_code,created_at,updated_at,is_first_step,code_validation,qualification_strategy_params,platform,crowd_task_name,is_send_box,work_on_output,comparison_strategy_code,time_allowed,auto_ful_fillment,transformed_combine_answers_code
-300,81,Classifying images,Image moderation,"","",,"",<h2>Instructions</h2><ul><li>Below is a set of images. On the right there is a select box.</li><li>Please choose the option which describe as close as possible the image.</li><li>Image unreadable? Enter N/A in the text field</li></ul>,60,1,1,minimum,,basic,"{""error_thresholds""=>{""block""=>nil, ""poor""=>43, ""good""=>0, ""excellent""=>0}}",,,descriptive,"{""if_agreement_action""=>""finish"", ""if_agreement_next_step""=>nil, ""if_disagreement_action""=>""send_to"", ""if_disagreement_next_step""=>nil, ""if_unreadable_action""=>""send_to"", ""if_unreadable_next_step""=>nil}","{""url"": ""http://cdn.fasterap.com/users/RandomImages/fCi9k.jpg""}","<tr>
+312,84,Classifying images sandeep,Image moderationd dddddddddd gsdgfsdfsdfsdf,"","",,"",<h2>Instructions</h2><ul><li>Below is a set of images. On the right there is a select box.</li><li>Please choose the option which describe as close as possible the image.</li><li>Image unreadable? Enter N/A in the text field</li></ul>,60,1,1,minimum,,basic,"{""error_thresholds""=>{""block""=>nil, ""poor""=>43, ""good""=>0, ""excellent""=>0}}",,,descriptive,"{""if_agreement_action""=>""finish"", ""if_agreement_next_step""=>nil, ""if_disagreement_action""=>""send_to"", ""if_disagreement_next_step""=>nil, ""if_unreadable_action""=>""send_to"", ""if_unreadable_next_step""=>nil}","{""url"": ""http://cdn.fasterap.com/users/RandomImages/fCi9k.jpg""}","<tr>
 <td>
 
     <div class=""ocr-image"">
@@ -1085,8 +1085,8 @@ $('input:first').focus();
 	$.fn[ pluginName ].instances = [];
 
 }));
-","",,"","","","",2016-04-06 08:06:47 UTC,2016-04-06 08:06:47 UTC,true,,{},private,storm_step_300,false,false,"",600,true,""
-301,81,Classifying images - Exceptions Private,Categorization of images,"","",,"",<h2>Instructions</h2><ul><li>Below is a set of images. On the right there is a select box.</li><li>Please choose the option which describe as close as possible the image.</li><li>Image unreadable? Enter N/A in the text field</li></ul>,45,1,1,minimum,,basic,"{""error_thresholds""=>{""block""=>nil, ""poor""=>43, ""good""=>0, ""excellent""=>0}}",,,descriptive,"{""if_agreement_action""=>""finish"", ""if_agreement_next_step""=>""storm_step_300"", ""if_disagreement_action""=>""send_to"", ""if_disagreement_next_step""=>""storm_step_300"", ""if_unreadable_action""=>""send_to"", ""if_unreadable_next_step""=>""storm_step_300""}","{""url"": ""http://cdn.fasterap.com/users/RandomImages/fCi9k.jpg""
+","",,"","","","",2016-04-06 10:22:26 UTC,2016-04-06 10:22:26 UTC,true,,{},private,storm_step_312,false,false,"",600,true,""
+313,84,Classifying images - Exceptions Private,Categorization of images,"","",,"",<h2>Instructions</h2><ul><li>Below is a set of images. On the right there is a select box.</li><li>Please choose the option which describe as close as possible the image.</li><li>Image unreadable? Enter N/A in the text field</li></ul>,45,1,1,minimum,,basic,"{""error_thresholds""=>{""block""=>nil, ""poor""=>43, ""good""=>0, ""excellent""=>0}}",,,descriptive,"{""if_agreement_action""=>""finish"", ""if_agreement_next_step""=>""storm_step_312"", ""if_disagreement_action""=>""send_to"", ""if_disagreement_next_step""=>""storm_step_312"", ""if_unreadable_action""=>""send_to"", ""if_unreadable_next_step""=>""storm_step_312""}","{""url"": ""http://cdn.fasterap.com/users/RandomImages/fCi9k.jpg""
 }","<tr>
 <td>
 
@@ -2171,4 +2171,4 @@ $('input:first').focus();
 	$.fn[ pluginName ].instances = [];
 
 }));
-                ","",,"","","","",2016-04-06 08:06:47 UTC,2016-04-06 08:06:47 UTC,false,,{},private,storm_step_301,false,false,"",600,true,""
+                ","",,"","","","",2016-04-06 10:22:26 UTC,2016-04-06 10:22:26 UTC,false,,{},private,storm_step_313,false,false,"",600,true,""
